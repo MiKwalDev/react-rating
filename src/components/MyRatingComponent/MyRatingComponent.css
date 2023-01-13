@@ -1,0 +1,22 @@
+.rating-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+    background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
+}
+
+.rating-card-content {
+    width: 90%;
+    margin: auto;
+}
+
+.rating-card-content img {
+    background-color: #262E38;
+    border-radius: 50%;
+}
+
+.rating-content {
+    color: white;
+}
