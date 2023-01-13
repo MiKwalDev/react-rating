@@ -3,7 +3,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/mikwaldev"
   },
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A simple custom rating React component library",
   "scripts": {
     "rollup": "rollup -c"
