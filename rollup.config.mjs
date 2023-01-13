@@ -5,6 +5,7 @@ import dts from "rollup-plugin-dts";
 import packageJson from "./package.json" assert { type: "json" };
 
 import postcss from "rollup-plugin-postcss";
+import svgr from '@svgr/rollup'
 
 export default [
   {
@@ -27,6 +28,7 @@ export default [
       typescript({ tsconfig: "./tsconfig.json" }),
 
       postcss(),
+      svgr(),
     ],
   },
   {
